@@ -8,9 +8,12 @@ html {
   height: 100%;
 }
 
-* { 
-  margin: 0;
-  padding: 0;
+* {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	padding: 0;
 }
 
 /* tell the browser to render HTML 5 elements as block */
@@ -104,22 +107,22 @@ ol li {
   margin-right: auto;
 }
 
-#main { 
-  width: 950px;
-  margin: 20px auto 0 auto;
+#main {
+	width: 1000px;
+	margin: 20px auto 0 auto;
 }
 
-header { 
-  width: 950px;
-  height: 105px;
+header {
+	width: 1000px;
+	height: 105px;
 }
 
-#logo { 
-  width: 220px;
-  float: left;
-  height: 100px;
-  background: transparent;
-  padding: 0 0 10px 10px;
+#logo {
+	width: 350px;
+	float: left;
+	height: 100px;
+	background: transparent;
+	padding: 0 0 10px 10px;
 }
 
 #logo h1 { 
@@ -139,37 +142,58 @@ header {
   text-decoration: none;
 }
 
-nav { 
-  height: 26px;
-  width: 720px;
-  margin: 1px auto 0 auto;
-  float: right;
-  padding: 35px 0 0 0;
+nav {
+	height: 26px;
+	width: 640px;
+	margin: 1px auto 0 auto;
+	float: right;
+	padding: 35px 0 0 0;
 } 
 
-#site_content { 
-  width: 950px;
-  overflow: hidden;
-  margin: 4px auto 0 auto;
-  padding: 0;
-  background: #333;
-  border-top: 0;
-  border-bottom: 0;
+#site_content {
+	width: 1000px;
+	overflow: hidden;
+	margin: 4px auto 0 auto;
+	padding: 0;
+	background: #333;
+	border-top: 0;
+	border-bottom: 0;
 } 
 
-#sidebar_container { 
-  float: left;
-  width: 450px;
-  padding: 0;
-  height: 450px;
+#paper_content {
+	width: 850px;
+	overflow: hidden;
+	margin: 4px auto 0 auto;
+	padding: 0;
+	background: #333;
+	border-top: 0;
+	border-bottom: 0;
+} 
+
+#photo_area {
+	width: 900px;
+	overflow: hidden;
+	margin: 4px auto 0 auto;
+	padding: 0;
+	background: #333;
+	border-top: 0;
+	border-bottom: 0;
+	height: 600px;
+} 
+
+#sidebar_container {
+	float: left;
+	width: 400px;
+	padding: 0;
+	height: 900px;
 }
 
-#content { 
-  text-align: justify;
-  width: 444px;
-  padding: 0 0 5px 30px;
-  margin: 0;
-  float: left;
+#content {
+	text-align: justify;
+	width: 544px;
+	padding: 0 0 5px 30px;
+	margin: 0;
+	float: left;
 }
 
 #content ul { 
@@ -217,14 +241,14 @@ nav {
   color: #222;
 }
 
-footer { 
-  width: 950px;
-  font: normal 140% 'News Cycle',  arial, sans-serif;
-  height: 90px;
-  padding: 20px 0 5px 0;
-  text-align: center; 
-  color: #FFF;
-  background: #444;
+footer {
+	width: 1000px;
+	font: normal 140% 'News Cycle',  arial, sans-serif;
+	height: 90px;
+	padding: 20px 0 5px 0;
+	text-align: center;
+	color: #FFF;
+	background: #444;
 }
 
 footer p { 
@@ -306,12 +330,23 @@ footer a:hover {
 }
 
 ul.images {
-  width:450px;
-  height:450px;
-  overflow:hidden;
-  position:relative;
-  margin:0;
-  padding:0;
+	list-style: none;
+	width: 900px;
+	height: 600px;
+	overflow: hidden;
+	position: relative;
+	margin: 0;
+	padding: 0;
+} 
+
+ul.images2 {
+	list-style: none;
+	width: 400px;
+	height: 900px;
+	overflow: hidden;
+	position: relative;
+	margin: 0;
+	padding: 0;
 } 
 
 ul.images li {
@@ -320,7 +355,6 @@ ul.images li {
   padding:0;
   left:0;
   right:0;
-  list-style:none;
 }
  
 ul.images li.show {
